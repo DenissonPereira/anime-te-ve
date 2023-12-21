@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/layout/NavBar.vue';
+import Header from './components/layout/Header.vue';
 </script>
 
 <template>
-  <div class="ola">
-    <h1>Olá!</h1>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <NavBar />
+  <Header />
 </template>

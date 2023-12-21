@@ -12,7 +12,10 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "vue": "^3.3.11"
+    "@types/bootstrap": "^5.2.10",
+    "bootstrap": "^5.3.2",
+    "bootstrap-vue": "^2.23.1",
+    "vue": "^3.3.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
