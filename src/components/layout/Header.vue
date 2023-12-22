@@ -5,6 +5,9 @@
     <div class="logo">
         <img src="../../../images/rinnegan.png" alt="" id="rine">
     </div>
+    <div class="titulo">
+        <h1><span class="simbolo">&deg;</span> Anime &nbsp; Te &nbsp; Ve <span class="simbolo">&deg;</span></h1>
+    </div>
 </template>
 
 <style>

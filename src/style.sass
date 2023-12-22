@@ -1,3 +1,39 @@
-.ola
-    display: flex
-    align-content: center
+@font-face 
+    font-family: 'Naruto'
+    src: url('./assets/fonts/njnaruto.ttf') format('truetype')
+    
+.titulo
+    backdrop-filter: blur(30px)
+    padding: 2em
+    border-radius: 1em      
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    h1
+        font-family: 'Naruto'
+        font-size: 5em
+        color: orange
+        text-shadow: 5px 2px 2px blue
+        animation: cor 3s linear infinite
+
+.simbolo
+    color: red
+    animation: nome 3s linear infinite
+
+@keyframes nome
+    0%
+        color: black
+        text-shadow: none
+    100%
+        color: red
+        text-shadow: none
+        
+
+@keyframes cor
+    0%
+        text-shadow: 5px 2px 2px blue
+    100%
+        color: white
+        text-shadow: 5px 2px 2px #8e62d4
+                
