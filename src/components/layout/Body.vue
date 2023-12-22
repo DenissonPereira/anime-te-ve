@@ -1,46 +1,67 @@
 <template>
-    <div class="container text-center colunas">
-        <div class="row">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+    <div class="slogam">
+        <h1>ANIME TE VE: O Portal dos Sonhos Animados, Onde a Magia Ganha Vida!</h1>
+    </div>
+    <div class="body">
+        <div class="card">
+            <div class="image">
+                <img src="../../../public/images/news/pxfuel.jpg" alt="">
             </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellendus dolore totam placeat beatae
+                    temporibus.</p>
             </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="../../../public/images/news/yugioh.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellendus dolore totam placeat beatae
+                temporibus.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="../../../public/images/news/dragon.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellendus dolore totam placeat beatae
+                temporibus.</p>
             </div>
         </div>
     </div>
 </template>
 
 <style>
-    .colunas {
-        margin-top: 9em;
-        margin-left: 22em;
+    .slogam {
+        margin-top: 6em;
+        text-align: center;
     }
+    .body {
+        margin-top: 2em;
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+        align-content: space-around;
+    }
+    .card img {
+        width: 19em;
+        height: 17em;
+        border-radius: 1em;
+    }
+    .card {
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .text {
+        width: 22em;
+        font-size: 1em;
+        text-align: center;
+        padding: 1em;
+    }
+
 </style>
