@@ -5,7 +5,7 @@
     <div class="body">
         <div class="card">
             <div class="image">
-                <img src="../../../public/images/news/pxfuel.jpg" alt="">
+                <img src="/images/news/pxfuel.jpg" alt="">
             </div>
             <div class="text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellendus dolore totam placeat beatae
@@ -14,7 +14,7 @@
         </div>
         <div class="card">
             <div class="image">
-                <img src="../../../public/images/news/yugioh.jpg" alt="">
+                <img src="/images/news/yugioh.jpg" alt="">
             </div>
             <div class="text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellendus dolore totam placeat beatae
@@ -23,7 +23,7 @@
         </div>
         <div class="card">
             <div class="image">
-                <img src="../../../public/images/news/dragon.jpg" alt="">
+                <img src="/images/news/dragon.jpg" alt="">
             </div>
             <div class="text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repellendus dolore totam placeat beatae
