@@ -3,7 +3,7 @@
         <h1>ANIME TE VE: O Portal dos Sonhos Animados, Onde a Magia Ganha Vida!</h1>
     </div>
     <div class="body">
-        <div class="card">
+        <div class="grupo_corpo">
             <div class="image">
                 <img src="/images/news/pxfuel.jpg" alt="">
             </div>
@@ -12,7 +12,7 @@
                     temporibus.</p>
             </div>
         </div>
-        <div class="card">
+        <div class="grupo_corpo">
             <div class="image">
                 <img src="/images/news/yugioh.jpg" alt="">
             </div>
@@ -21,7 +21,7 @@
                 temporibus.</p>
             </div>
         </div>
-        <div class="card">
+        <div class="grupo_corpo">
             <div class="image">
                 <img src="/images/news/dragon.jpg" alt="">
             </div>
@@ -45,17 +45,19 @@
         gap: 2em;
         align-content: space-around;
     }
-    .card img {
+    .grupo_corpo img {
         width: 19em;
         height: 17em;
         border-radius: 1em;
     }
-    .card {
-        border: none;
+    .grupo_corpo {
         display: flex;
         flex-direction: column;
         align-content: center;
         align-items: center;
+        margin: 0;
+        padding: 0;
+        outline: none;
     }
     .text {
         width: 22em;
